@@ -70,12 +70,12 @@ function playRound( playerSelection, computerSelection ){
     } 
 
     // check the highest score
-    if ( playerScore > computerScore ){
+    if ( playerScore > computerScore )
                     
                         document.writeln( "<p> Yay!! you won. The highest score is: " + playerScore + " Computer score is: " + computerScore + "</p>");
-    }else {
+    else 
                     document.writeln( "<p> Oww! Computer won. The highest score is:  " + computerScore + " Player score is: " + playerScore + "</p>");
-    }
+    
  
     if( playerScore == computerScore )
          document.writeln ("<p> Its a tie in the overall round </p>")
